@@ -1,0 +1,86 @@
+@font-face {
+  font-family:mono ;
+  src: url(../fonts/GeistMonoVF.woff);
+}
+@font-face {
+  font-family:gesi ;
+  src: url(../fonts/GeistVF.woff);
+}
+@font-face {
+  font-family: front;
+  src: url(../fonts/SpicyRice-Regular.ttf);
+}
+@font-face {
+font-family:fancy ;
+src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+} 
+ .main{
+    width: 100%;
+    height: 915px;
+  }
+.header{
+    width: 100%;
+    height: 110px;
+    background-color: rgb(0, 0, 0);
+    /* position: absolute; */
+    /* margin-left: 420px; */
+  }
+
+  .links{
+  color: whitesmoke;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  font-family: fancy;
+  font-size: 30px;
+  font-weight: bolder;
+  }
+  .nava{
+    position: relative;
+    padding: 0 20px;
+    color: rgb(201, 200, 200);
+    font-size: 30px;
+    font-family: fancy;
+    text-decoration: none;
+    font-weight: bolder;
+    /* transition: 3s; */
+  }
+  .nava::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 0px;
+    bottom: -20px;
+    transition: 0.3s;
+    
+  }
+  .nava:hover::after{
+    width: 100%;
+  }
+  .nava:hover{
+    color: whitesmoke;
+  }
+  .footer{
+    background-color: gray;
+    height: 100px;
+    width: 100%;
+    margin-top: 190px;
+    }
+    .icons{
+      padding-top: 25px;
+      display: flex;
+      justify-content: space-evenly;
+      /* margin-left: 70px; */
+      word-spacing: 10px;
+      padding-right: 15px;
+    }
+    .img{
+      margin-top: 200px;
+    }
+    .about{
+      font-family: mono;
+    }

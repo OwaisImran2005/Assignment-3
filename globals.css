@@ -1,0 +1,195 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family:mono ;
+    src: url(fonts/GeistMonoVF.woff);
+}
+@font-face {
+    font-family:gesi ;
+    src: url(fonts/GeistVF.woff);
+}
+@font-face {
+    font-family: front;
+    src: url(fonts/SpicyRice-Regular.ttf);
+}
+@font-face {
+  font-family:fancy ;
+  src: url(fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+.main{
+  width: 100%;
+  height: 915px;
+}
+.ftext{
+        color: white;
+        font-size: 34px;
+        font-family: front;
+        padding-top: 20px;
+        padding-left: 60px;
+        padding-bottom: 40px;
+}
+.imgo{
+  border-radius: 47%;
+  margin-left: 100px;
+  margin-top: 50px;
+}
+.left{
+    width: 25%;
+    background-color: darkblue;
+    height: 915px;
+    position: absolute;
+}
+.skill{
+    font-size: 33px;
+    font-family:gesi ;
+    color: white;
+    padding-top: 50px;
+    padding-left: 25px;
+}
+.list{
+    padding-top: 15px;
+    padding-left: 80px;
+    color: white;
+    font-family: mono;
+    letter-spacing: 2px;
+}
+
+.bio{
+    color: white;
+    font-family: mono;
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.hr{
+    padding-top: 40px;
+}
+.icons{
+    padding-top: 75px;
+    display: flex;
+    justify-content: space-evenly;
+    /* margin-left: 70px; */
+    word-spacing: 10px;
+    padding-right: 15px;
+}
+.header{
+  width: 75%;
+  height: 110px;
+  background-color: darkblue;
+  position: absolute;
+  margin-left: 420px;
+}
+.links{
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+justify-content: space-evenly;
+padding-top: 30px;
+}
+.navlinksh{
+  position: relative;
+  padding: 0 20px;
+  color: rgb(201, 200, 200);
+  font-size: 30px;
+  font-family: fancy;
+  text-decoration: none;
+  font-weight: bolder;
+  /* transition: 3s; */
+}
+.navlinksh::after{
+  content: "";
+  width: 0;
+  height: 3px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 0px;
+  bottom: -20px;
+  transition: 0.3s;
+  
+}
+.navlinksh:hover::after{
+  width: 100%;
+}
+.navlinksh:hover{
+  color: whitesmoke;
+}
+.edu{
+  padding-top: 100px;
+  width: 75%;
+  height: 915px;
+  /* position: absolute; */
+  margin-left: 420px;
+}
+.eduheads{
+  font-size: 34px;
+  font-family: gesi;
+  font-weight:600 ;
+  padding-top: 35px;
+  padding-left: 80px;
+}
+.subedu{
+  font-size: 20px;
+  font-family: gesi;
+  padding-left: 75px;
+  text-decoration: underline 2px black;
+  font-style: italic;
+  padding-top: 15px;
+}
+.hr2{
+  color: darkblue;
+  height: 3px;
+}
+.education{
+font-family: gesi;
+font-size: 17px;
+padding-top: 20px;
+
+}
+.edulist{
+  list-style-type:disc;
+  padding-left: 100px;
+  /* padding-left: 50px; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* a{
+  position: relative;
+  text-decoration: none;
+  padding-left: 50px;
+  padding-top: 22px;
+  font-size: 25px;
+  font-family: navf;
+  transition: 0.3s;
+}
+a::after{
+  content: "";
+  position: absolute;
+  background-color: cyan;
+  height: 3px;
+  width: 0;
+  left: 25px;
+  bottom: -18px;
+  transition: 0.3s;
+  
+}
+a:hover::after{
+  width: 100%;
+}
+a:hover{
+  color: whitesmoke;
+} */
+
